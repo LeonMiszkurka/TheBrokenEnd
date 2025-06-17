@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thebrokenend:block/error",
+    "up": "thebrokenend:block/error",
+    "north": "thebrokenend:block/error",
+    "east": "thebrokenend:block/error",
+    "south": "thebrokenend:block/error",
+    "west": "thebrokenend:block/error",
+    "particle": "thebrokenend:block/error"
+  },
+  "render_type": "solid"
+}

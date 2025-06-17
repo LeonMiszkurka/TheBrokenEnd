@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thebrokenend:block/ct_def",
+    "up": "thebrokenend:block/ct_def",
+    "north": "thebrokenend:block/ct_def",
+    "east": "thebrokenend:block/ct_def",
+    "south": "thebrokenend:block/ct_def",
+    "west": "thebrokenend:block/ct_def",
+    "particle": "thebrokenend:block/ct_def"
+  },
+  "render_type": "solid"
+}

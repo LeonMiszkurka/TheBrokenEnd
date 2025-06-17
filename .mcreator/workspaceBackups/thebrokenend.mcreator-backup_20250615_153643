@@ -1,0 +1,43 @@
+{
+  "mod_elements": [
+    {
+      "name": "TBE",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tbe",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.thebrokenend.tbe": "TBE"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thebrokenend",
+    "modName": "TheBrokenEnd",
+    "version": "1.0.0",
+    "author": "alexm, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.mcreator.thebrokenend"
+  },
+  "mcreatorVersion": 202500113416
+}

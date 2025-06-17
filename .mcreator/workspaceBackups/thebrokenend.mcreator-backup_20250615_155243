@@ -1,0 +1,126 @@
+{
+  "mod_elements": [
+    {
+      "name": "TBE",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tbe",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TBEdefgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tb_edefgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thebrokenend/client/gui/TBEdefguiScreen.java",
+          "src/main/java/net/mcreator/thebrokenend/world/inventory/TBEdefguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Tbecmdfunc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tbecmdfunc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thebrokenend/procedures/TbecmdfuncProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Tbeasi",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tbeasi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thebrokenend/command/TbeasiCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "FZFblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fz_fblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thebrokenend/blockstates/fz_fblock.json",
+          "src/main/resources/assets/thebrokenend/models/block/fz_fblock.json",
+          "src/main/resources/data/thebrokenend/loot_table/blocks/fz_fblock.json",
+          "src/main/resources/assets/thebrokenend/models/item/fz_fblock.json",
+          "src/main/java/net/mcreator/thebrokenend/block/FZFblockBlock.java",
+          "src/main/resources/assets/thebrokenend/items/fz_fblock.json"
+        ]
+      }
+    },
+    {
+      "name": "TbeUnkown",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tbe_unkown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thebrokenend/loot_table/blocks/tbe_unkown.json",
+          "src/main/resources/assets/thebrokenend/models/item/tbe_unkown.json",
+          "src/main/resources/assets/thebrokenend/blockstates/tbe_unkown.json",
+          "src/main/resources/assets/thebrokenend/models/block/tbe_unkown.json",
+          "src/main/java/net/mcreator/thebrokenend/block/TbeUnkownBlock.java",
+          "src/main/resources/assets/thebrokenend/items/tbe_unkown.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:FZFblock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:FZFblock"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.thebrokenend.tbe": "TBE",
+      "item.thebrokenend.fz_fblock": "404",
+      "item.thebrokenend.tbe_unkown": "Error",
+      "gui.thebrokenend.tb_edefgui.button_ender_events": "Ender Events",
+      "gui.thebrokenend.tb_edefgui.label_tbd": "TBD"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thebrokenend",
+    "modName": "TheBrokenEnd",
+    "version": "1.0.0",
+    "author": "alexm, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.mcreator.thebrokenend"
+  },
+  "mcreatorVersion": 202500113416
+}
